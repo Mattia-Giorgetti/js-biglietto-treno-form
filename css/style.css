@@ -1,0 +1,33 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FA4738 ;
+}
+.my_wrapper {
+    background-color: #FA4738;
+    width: 100%;
+    height: 100vh;
+}
+.my_wrapper .container-sm {
+    min-height: 560px;
+    background: linear-gradient(90deg, aliceblue,#FA4738);
+}
+.original_btn {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 1rem 2rem;
+    letter-spacing: 5px;
+}
+.original_btn:hover {
+    opacity: 0.8;
+
+}
+.bonus {
+    color:#1680FA;
+    font-weight: 600;
+}
+.priceSpan {
+    color: #FA4738;
+    font-size: 2.5rem;
+    font-weight: 600;
+}

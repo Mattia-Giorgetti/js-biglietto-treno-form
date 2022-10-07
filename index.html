@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Acquisto Biglietti</title>
+</head>
+<body>
+
+  <div class="my_wrapper d-flex justify-content-center align-items-center">
+      <div class="container-sm rounded-3 d-flex flex-column p-4">
+          <div class="km_section d-flex flex-column col-5  p-3">
+              <label for="km" class="pb-3 fs-4">Quanti chilometri devi percorrere?:</label>
+              <input type="number" id="km" value="" placeholder="Inserisci km totali">
+          </div>
+          <div class="eta_section d-flex flex-column col-5 p-3">
+              <label for="anniutente" class="pb-3 fs-4">Quanti anni hai?:</label>
+              <input type="number" id="anni_utente" value="" placeholder="Inserisci la tua età">
+          </div>
+          <div class="price_btn p-3">
+            <button id="my_btn" class="original_btn mt-4">Visualizza prezzo</button>
+        </div>
+          <div class="script_output p-3">
+              <p id="prezzo_precedente" class="fs-3"></p>
+              <p id="prezzo_finale" class="fs-3"></p>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
